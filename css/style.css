@@ -11,6 +11,7 @@ body {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
 }
+/* MENU */
 .menu .logo {
     color: white;
     font-size: 2.5rem;
@@ -38,7 +39,38 @@ body {
 .menu {
     background-color: black;
 }
-
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: url(https://i.imgur.com/3163Q5t.jpg)
+    no-repeat center center/cover;
+    z-index: 1  ;
+}
+.banner .texto_banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    min-width: 40%;
+    min-height: 20%;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.banner .texto_banner p,
+.banner .texto_banner h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.banner .texto_banner h1 {
+    font-size: 2.8rem;
+}
+/* RESPONSIVE */
 @media (max-width: 700px) {
     .hamburger {
         width: 3rem;
@@ -71,6 +103,7 @@ body {
         background-color: black;
         transition: 1s;
         left: -100%;
+        z-index: 2;
     }
     .open {
         left: 0;
