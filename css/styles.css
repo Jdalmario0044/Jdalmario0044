@@ -93,26 +93,10 @@ main {
     padding: 2em;
     gap: 0.5em;
 }
-
-@media screen and (min-width:720px) {
-    .main {
-        grid-template-columns: min-content 1fr;
-    }
-}
-
 .column {
     display: grid;
     gap: 0.5em;
 }
-
-@media screen and (min-width:720px) {
-    .column--right {
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,min-content);
-        align-items: start;
-    }
-}
-
 .card {
     padding: 1em;
     background-color: var(--bg-card-color);
@@ -140,9 +124,6 @@ main {
 .card__text {
     font-size: 0.9rem;
     line-height: 1.6;
-}
-.icon {
-    margin-right: 1em;
 }
 .skills {
     padding: 1em 0;
@@ -241,6 +222,48 @@ main {
     font-size: 0.8rem;
     margin-bottom: 1.5em;
 }
+.project {
+    position: relative;
+}
+.project__tags {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 0;
+    font-size: 0.6rem;
+    width: 275px;
+}
+.project__tag {
+    padding: 0.4em 0.8em;
+    border-radius: var(--border-radius);
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    transition: var(--transition);
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+}
+.button {
+    width: 100px;
+    line-height: 2.5;
+    text-align: center;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+.button--primary {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    
+}
+.button--ghost {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.icon {
+    margin-right: 1em;
+}
 .no-margin {
     margin: 0;
 }
@@ -249,4 +272,33 @@ main {
         transform: translateX(var(--skill-bar-length));
     }
 }
-
+@media screen and (min-width:720px) {
+    .main {
+        grid-template-columns: min-content 1fr;
+    }
+}
+@media screen and (min-width:720px) {
+    .column--right {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,min-content);
+        align-items: start;
+    }
+}
+@media screen and (min-width:760px) {
+    .card--project {
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        grid-column: 1 / -1;
+    }
+    .project {
+        margin-left: 2em;
+    }
+    .project__tags {
+        width: 325px;
+        font-size: 0.8rem;
+    }
+    .button-container {
+        position: absolute;
+        bottom: 1em;
+    }
+}
