@@ -1,0 +1,21 @@
+{
+    "profile": {
+        "rol": "Desarrollador Frond-end",
+        "description": "Más de 9 años de experiencia en desarrollo web. Apasionado de las nuevas tecnologías y en especial del ecosistema de CSS y JavaScript.<br>Mi propósito es trasladar mi pasión por enseñar tecnoligías web a todos aquellos que quieran iniciarse en este campo de una forma actualizada, con buenas prácticas y desde cero."
+    },
+    "experience": {
+        "first-job-title-card": "Experiencia",
+        "first-job-title": "Técnico de sistemas",
+        "first-job-date": "Jul 2019 - May 2020",
+        "first-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "secound-job-title-card": "Experiencia",
+        "secound-job-title": "Técnico de sistemas",
+        "secound-job-date": "Jul 2019 - May 2020",
+        "secound-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "last-job-title-card": "Experiencia",
+        "last-job-title": "Técnico de sistemas",
+        "last-job-date": "En 2022 - Actualmente",
+        "last-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+    }
+}

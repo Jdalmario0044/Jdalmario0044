@@ -12,9 +12,23 @@
     <header class="header">
       <div class="switches">
         <div id="toggle-theme" class="toggle-theme">
-          <img id="toggle-icon" src="assets/icons/moon.svg" 
-              alt="icon theme" class="toggle-theme__icon">
+          <img id="toggle-icon"
+          src="assets/icons/moon.svg" 
+          alt="icon theme"
+          class="toggle-theme__icon">
            <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="assets/icons/co.svg"
+          alt="Colombia Flag"
+          class="flags__img">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="assets/icons/us.svg"
+          alt="U.S Flag"
+          class="flags__img">
         </div>
       </div>
       <div id="toggle-colors" class="colors">
@@ -34,7 +48,12 @@
           </div>
           <div class="card__header">
             <h2 class="card__title no-margin">Jose Almario</h2>
-            <p class="card__subtitle no-margin">Front end developer</p>
+            <p class="card__subtitle no-margin"
+            data-section="profile"
+            data-value="rol"
+            >
+            Front end developer
+          </p>
           </div>
           <div class="card__body">
             <div class="card__link">
@@ -49,52 +68,109 @@
                 +57 87654321
               </a>
             </div>
-            <p class="card__text">
-              Más de 9 años de experiencia en desarrollo web. Apasionado de las nuevas tecnologías y en especial del ecosistema de CSS y JavaScript.<br>
-              Mi propósito es trasladar mi pasión por enseñar tecnoligías web a todos aquellos que quieran iniciarse en este campo de una forma actualizada, con buenas prácticas y desde cero.
+            <p class="card__text"
+            data-section="profile"
+            data-value="description"
+            >
+              More than 9 years of experience in web development. Passionate about new technologies and especially the CSS and JavaScript ecosystem.<br>
+              My purpose is to transfer my passion for teaching web technologies to all those who want to start in this field in a updated way, with good practices and from scratch.
             </p>
           </div>
         </article>
         <article class="card card--experience">
-          <h2 class="card__title">Experiences</h2>
+          <h2 class="card__title"
+          data-section="experience"
+          data-value="first-job-title-card"
+          >
+          Experience
+        </h2>
           <div class="experience">
-            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <img src="assets/images/logo.png"
+            alt="logo"
+            class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Feb 0000 - Current
+              <p class="experience__time"
+              data-section="experience"
+              data-value="first-job-date"
+              >
+                Jul 2019 - May 2020
               </p>
-              <h3 class="experience__job">Support System</h3>
-              <p class="experience__description">
+              <h3 class="experience__job"
+              data-section="experience"
+              data-value="first-job-title"
+              >
+              Técnico en sistemas
+              </h3>
+              <p class="experience__description"
+              data-section="experience"
+              data-value="first-job-description"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
             </div>
           </div>
         </article>
         <article class="card card--experience">
-          <h2 class="card__title">Experiences 2</h2>
+          <h2 class="card__title"
+          data-section="experience"
+          data-value="secound-job-title-card"
+          >
+          Experience
+        </h2>
           <div class="experience">
-            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <img src="assets/images/logo.png"
+            alt="logo"
+            class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Feb 0000 - Current
+              <p class="experience__time"
+              data-section="experience"
+              data-value="secound-job-date"
+              >
+                Jul 2019 - May 2020
               </p>
-              <h3 class="experience__job">Support System</h3>
-              <p class="experience__description">
+              <h3 class="experience__job"
+              data-section="experience"
+              data-value="secound-job-title"
+              >
+              Técnico en sistemas
+              </h3>
+              <p class="experience__description"
+              data-section="experience"
+              data-value="secound-job-description"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
             </div>
           </div>
         </article>
         <article class="card card--experience">
-          <h2 class="card__title">Experiences 3</h2>
+          <h2 class="card__title"
+          data-section="experience"
+          data-value="last-job-title-card"
+          >
+          Experience
+        </h2>
           <div class="experience">
-            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <img src="assets/images/logo.png"
+            alt="logo"
+            class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Feb 0000 - Current
+              <p class="experience__time"
+              data-section="experience"
+              data-value="last-job-date"
+              >
+                En 2022 - Actualmente
               </p>
-              <h3 class="experience__job">Support System</h3>
-              <p class="experience__description">
+              <h3 class="experience__job"
+              data-section="experience"
+              data-value="last-job-title"
+              >
+              Técnico en sistemas
+            </h3>
+              <p class="experience__description"
+              data-section="experience"
+              data-value="last-job-description"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
             </div>
