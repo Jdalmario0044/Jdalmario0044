@@ -6,16 +6,21 @@
     "experience": {
         "first-job-title-card": "Experiencia",
         "first-job-title": "Técnico de sistemas",
-        "first-job-date": "Jul 2019 - May 2020",
-        "first-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "first-job-date": "May 2019 - Nov 2020",
+        "first-job-description": "Asistente de ingeniería y apoyo técnico al personal de la empresa.",
         "secound-job-title-card": "Experiencia",
         "secound-job-title": "Técnico de sistemas",
-        "secound-job-date": "Jul 2019 - May 2020",
-        "secound-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "secound-job-date": "Mar 2020 - Dic 2020",
+        "secound-job-description": "Atención al cliente y soporte técnico al personal de la empresa.",
         "last-job-title-card": "Experiencia",
         "last-job-title": "Técnico de sistemas",
-        "last-job-date": "En 2022 - Actualmente",
-        "last-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-
+        "last-job-date": "Mar 2021 - Dic 2021",
+        "last-job-description": "validación de datos en Excel, QA de proyectos en redes eléctricas, elaboración de cálculos mecánicos y presupuesto."
+    },
+    "skills": {
+        "first-skill-title-card": "Front-end",
+        "first-skill-experience-text": "Años de Experiencia",
+        "secound-skill-title-card": "Otras habilidades",
+        "secound-skill-experience-text": "Años de Experiencia"
     }
 }

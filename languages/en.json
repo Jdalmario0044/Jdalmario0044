@@ -6,16 +6,21 @@
     "experience": {
         "first-job-title-card": "Experience",
         "first-job-title": "System technique",
-        "first-job-date": "Jul 2019 - May 2020",
-        "first-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "first-job-date": "May 2019 - Nov 2019",
+        "first-job-description": "engineering assistant and technically support to company personnel.",
         "secound-job-title-card": "Experience",
         "secound-job-title": "System technique",
-        "secound-job-date": "Jul 2019 - May 2020",
-        "secound-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "secound-job-date": "Mar 2020 - Dec 2020",
+        "secound-job-description": "Customer support and technical support to company personnel.",
         "last-job-title-card": "Experience",
         "last-job-title": "System technique",
-        "last-job-date": "Jan 2022 - Current",
-        "last-job-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-
+        "last-job-date": "Mar 2021 - Dec 2021",
+        "last-job-description": "data validation in Excel, QA of projects in electrical networks, development mechanical calculations and budget."
+    },
+    "skills": {
+        "first-skill-title-card": "Front-end",
+        "first-skill-experience-text": "Years experience",
+        "secound-skill-title-card": "Others skills",
+        "secound-skill-experience-text": "Years experience"
     }
 }
