@@ -22,5 +22,19 @@
         "first-skill-experience-text": "Años de Experiencia",
         "secound-skill-title-card": "Otras habilidades",
         "secound-skill-experience-text": "Años de Experiencia"
+    },
+    "projects": {
+        "first-project-title-card": "Landing Page Básica",
+        "first-project-description": "Una estructura básica de una landing page, usando HTML, CSS y un poco de JavaScript. Es una página sencilla con un estilo compacto.",
+        "first-project-bt1": "Demo",
+        "first-project-bt2": "Código",
+        "secound-project-title-card": "Landing Page 2",
+        "secound-project-description": "",
+        "secound-project-bt1": "Demo",
+        "secound-project-bt2": "Código",
+        "third-project-title-card": "Landing Page 3",
+        "third-project-description": "",
+        "third-project-bt1": "Demo",
+        "third-project-bt2": "Código"
     }
 }
