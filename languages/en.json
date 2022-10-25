@@ -23,6 +23,10 @@
         "secound-skill-title-card": "Others skills",
         "secound-skill-experience-text": "Years experience"
     },
+    "hobbies": {
+        "first-hobby-title": "Reading",
+        "first-hobby-description": "I really like reading. I read about different subjects, it's very satisfying to learn new things from the books, books relasionate with philosophy and psychology are my favorite kind of books."
+    },
     "projects": {
         "first-project-title-card": "Basic Landing Page",
         "first-project-description": "A basic structure of a landing page, using HTML, CSS and a little bit of JavaScript. Is a simple page with a compact style and is adaptable to multiple devices.",
