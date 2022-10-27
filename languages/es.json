@@ -36,8 +36,8 @@
         "secound-project-description": "Una página sencilla con una estructura sencilla pero podemos ver cómo usar tecnologías como Axios y Fetch para conectarse a una API y realizar algunas consultas. En esta página podemos ver fotos de gatos al azar, guardar fotos como favoritas y eliminarlas de la lista de favoritos. También podemos subir fotos de gatos desde nuestros dispositivos.",
         "secound-project-bt1": "Demo",
         "secound-project-bt2": "Código",
-        "third-project-title-card": "Landing Page 3",
-        "third-project-description": "",
+        "third-project-title-card": "Platzi Series",
+        "third-project-description": "Un proyecto solo para dispositivos móviles o tabletas, utiliza Axios para realizar algunas consultas y obtener información sobre la serie. Hay una barra de búsqueda capaz de encontrar cualquier serie y puedes encontrar la serie por categorías. Esta web solo te ofrece información sobre la serie.",
         "third-project-bt1": "Demo",
         "third-project-bt2": "Código"
     }

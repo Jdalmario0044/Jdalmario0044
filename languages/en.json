@@ -36,8 +36,8 @@
         "secound-project-description": "A simple page with a simple structure but we can se how use technologies as Axios and Fetch to connect to an API and make some queries. In this page we can see random cat pics, save pics as favorites and remove form the favorite list also we can upload to the API cat's photos from our devices.",
         "secound-project-bt1": "Demo",
         "secound-project-bt2": "Code",
-        "third-project-title-card": "Landing Page 3",
-        "third-project-description": "",
+        "third-project-title-card": "Platzi Series",
+        "third-project-description": "A project only for mobile devices or tablets, uses Axios to do some queries and get information about the series. There is a search bar able to find any series and you can find the series by categories. This web only provides you with information about the series.",
         "third-project-bt1": "Demo",
         "third-project-bt2": "Code"
     }
