@@ -1,7 +1,7 @@
 {
   "name": "portafolio1",
   "version": "1.0.0",
-  "description": "🌱 I’m currently learning",
+  "description": "🌱 This is my portfolio as backend development and it is just the beginning. I hope to do more interesting projects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
