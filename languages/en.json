@@ -39,6 +39,10 @@
         "third-project-title-card": "Platzi Series",
         "third-project-description": "A project only for mobile devices or tablets, uses Axios to do some queries and get information about the series. There is a search bar able to find any series and you can find the series by categories. This web only provides you with information about the series.",
         "third-project-bt1": "Demo",
-        "third-project-bt2": "Code"
+        "third-project-bt2": "Code",
+        "fourth-project-title-card": "TODO TODO",
+        "fourth-project-description": "I have developed a project with a basic structure of HTML, CSS, and React. The main intention behind this project was to apply and practice my React skills. The project is an application designed to manage tasks effectively. It provides a user-friendly interface where users can create, organize, and track their tasks easily.",
+        "fourth-project-bt1": "Demo",
+        "fourth-project-bt2": "Code"
     }
 }
